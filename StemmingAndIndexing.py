@@ -43,5 +43,7 @@ feature_names = vectorizer.get_feature_names()
 for i, feature in enumerate(feature_names):
     weight = tfidf_matrix[0, i]
     print(f"{feature}: {weight:.5f}")
-
+    
+df = pd.DataFrame({'feature': feature_names, 'weight': tfidf_matrix.toarray()[0]})
+df.to_csv('weights.csv', index=False)
 
