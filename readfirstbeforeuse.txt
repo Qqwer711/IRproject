@@ -1,0 +1,3 @@
+1st run Scraping first 
+2nd after get 2 file text run StemmingAndIndexing it will do stemmimg and find weight 
+3rd run Qurry it will let you input the word and find qurry from find that got stemmed and find weight for the quury
