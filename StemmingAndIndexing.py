@@ -6,6 +6,7 @@ nltk.download('punkt')
 import re
 from nltk.stem import PorterStemmer
 
+import pandas as pd
 
 with open('article_titles_fixing.txt', 'r') as f:
     text = f.read()
